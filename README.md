@@ -45,6 +45,9 @@ order: {
   7- Optional pages could be added for the sake of creativity.
 
   8- Optional **Home page** could be added.
-  
-  #### Note: #### 
-  For any assumptions or additional properties you want to add, please mention it in your readme file. 
+
+
+#### Notes: #### 
+  1- For any assumptions or additional properties you want to add, please mention it in your readme file. 
+  2- Fork this repo, do your task then submit the link.
+
