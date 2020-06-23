@@ -24,7 +24,7 @@ order: {
     area: String,
     city: String
   }
-  orderedBy: String,
+  createdBy: String,
   createdAt: Date
 }
 ```
@@ -42,9 +42,11 @@ order: {
   
   6- Validtion must be apllied in edit and add of orders and all of the fields are required except address, which depends on the order    type, if it is "delivery" then required else not required.
   
-  7- Optional pages could be added for the sake of creativity.
+  7- There are fields that can not be edited such as createdBy, createdAt, totalPrice and customerId.
+  
+  8- Optional pages could be added for the sake of creativity.
 
-  8- Optional **Home page** could be added.
+  9- Optional **Home page** could be added.
 
 
 #### Notes: #### 
