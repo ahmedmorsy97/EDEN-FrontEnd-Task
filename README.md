@@ -44,9 +44,11 @@ order: {
   
   7- There are fields that can not be edited such as createdBy, createdAt, totalPrice and customerId.
   
-  8- Optional pages could be added for the sake of creativity.
+  8- As data will be static, you can save the data in any storage of the browser such as local Storage, Session Storage, Cookies or any other storage that doesnot required third party and state the reason of picking it.
+  
+  9- Optional pages could be added for the sake of creativity.
 
-  9- Optional **Home page** could be added.
+  10- Optional **Home page** could be added.
 
 
 #### Notes: #### 
