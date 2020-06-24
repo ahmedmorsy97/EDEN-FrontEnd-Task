@@ -1,33 +1,6 @@
-# EDEN-FrontEnd-Task
-This repo contains a task for front-end developers to evaluate skills, knowledge and creativity.  
+# Eden Frontend Task
+This is a simple task that involves creating an employee management module using React. 
 
-Mainly, the task needs to be done using React, however if you don't have previous experience with React framework you have 2 choices either to take the chance and accept the optional challenge to do the task with React or to do it using pure JavaScript, HTML and CSS.
-
-# Order's Object
-```Javascript
-order: {
-  customerId: String,
-  customerName: String,
-  customerPhoneNumber: String (Validation needed to be an Egyptain phone number specially in add and edit),
-  orderList (order products array): [
-    {
-      productName: String,
-      quantity: Number,
-      price: Number
-    }
-  ]
-  totalPrice (calculated from the orderList): Number,
-  type (either onBoard or delivery): String,
-  address: {
-    appartmentNumber: Number,
-    streetName: String,
-    area: String,
-    city: String
-  }
-  createdBy: String,
-  createdAt: Date
-}
-```
 
 # Task Requirments
   1- Create 2 main pages one to **add** the "order" and the other to **show, edit and delete**. 
@@ -38,20 +11,30 @@ order: {
   
   4- Paggination should be added and it is optional to add the funcutionality of switching between the pages.  
   
-  #### 5- Clean code is a must.
-  
   6- Validtion must be apllied in edit and add of orders and all of the fields are required except address, which depends on the order    type, if it is "delivery" then required else not required.
   
   7- There are fields that can not be edited such as createdBy, createdAt, totalPrice and customerId.
   
-  8- As data will be static, you can save the data in any storage of the browser such as local Storage, Session Storage, Cookies or any other storage that doesnot required third party and state the reason of picking it.
-  
   9- Optional pages could be added for the sake of creativity.
+  
+# Instructions
+* Fork this repostiry to your personal account
+* Clone The repository
+* Run the server stub:
+  - Install the dependencies
+  ```bash
+  npm i
+  ```
+  - Run the server
+  ```bash
+  npm start
+  ```
+* Create your react app in the same directory (https://www.npmjs.com/package/create-react-app)
+* Complete the requirements
+* Send us the link to your **public** repository after completing the task
 
-  10- Optional **Home page** could be added.
 
 
 #### Notes: #### 
-  1- For any assumptions or additional properties you want to add, please mention it in your readme file. 
-  2- Fork this repo, do your task then submit the link.
+* For any assumptions or additional properties you want to add, please mention it in your readme file
 
