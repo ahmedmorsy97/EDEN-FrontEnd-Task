@@ -81,6 +81,22 @@ The repository includes a script for a simple API stub (server.js). It contains 
     "id": 3
   }
   ```
+* PATCH /employee/:id
+  - Request Example
+  ```JSON
+  {
+    "age": 46
+  }
+  ```
+  - Response Example
+  ```JSON
+  {
+    "name": "Michael Scott",
+    "age": 46,
+    "title": "Regional Manager",
+    "id": 3
+  }
+  ```
 
 
 
