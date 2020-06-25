@@ -6,7 +6,7 @@ This is a simple task that involves creating an employee management module using
 * Create two pages: one page to view the employee list and another to view a single employee's info
 * The employee list page should allow the addition of new employee and should be paginated
 * The employee info page should allow editing
-* Don't use CSS frameworks (Such ass Bootstrap and MaterialUI)
+* Don't use CSS frameworks (Such as Bootstrap and MaterialUI)
 * Bonus
   - Responsive Design
   
