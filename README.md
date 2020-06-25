@@ -4,18 +4,14 @@ This is a simple task that involves creating an employee management module using
 
 # Task Requirements
 * Create two pages: one page to view the employee list and another to view a single employee's info
+* The employee list page should allow the addition of new employee
+* The employee info page should allow editing
   
 * CSS framework could be used such as Bootstrap, Material UI or any other framework.
   
 * Styling should not completely depends on the framework but also you have to either add or overwrite the framework default styles.
   
 * Pagination should be added and it is optional to add the funcutionality of switching between the pages.  
-  
-* Validtion must be apllied in edit and add of orders and all of the fields are required except address, which depends on the order    type, if it is "delivery" then required else not required.
-  
-* There are fields that can not be edited such as createdBy, createdAt, totalPrice and customerId.
-  
-* Optional pages could be added for the sake of creativity.
   
 # Instructions
 * Fork this repostiry to your personal account
@@ -36,6 +32,8 @@ This is a simple task that involves creating an employee management module using
 # API Stub Documentation
 The repository includes a script for a simple API stub (server.js). It contains four enpoints:
 * GET /employees
+  - Query Paramaters
+    - **page:** the number of the page
   - Response Example
   ```JSON
   [
